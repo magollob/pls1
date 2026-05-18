@@ -14,7 +14,7 @@ declare global {
 
 import { useState, useEffect, useRef, useCallback } from "react"
 import { Button } from "@/components/ui/button"
-import { ChevronDown, X, Gift, Watch, Headphones, Shield, Truck, Sparkles, MapPin, Ruler, Play } from "lucide-react"
+import { X, Gift, Watch, Headphones, Shield, Truck, Sparkles, MapPin, Ruler, Play } from "lucide-react"
 import Image from "next/image"
 import {
   Accordion,
@@ -348,10 +348,6 @@ export default function LandingPage() {
   }, [])
 
   const whatsappLink = "https://tintim.link/whatsapp/805044db-e307-4a5a-b566-b1ee3911b3f3/dd46302b-1cfd-415f-bda0-f2d785c160ea"
-
-  const scrollToContent = () => {
-    window.scrollTo({ top: window.innerHeight, behavior: "smooth" })
-  }
 
   return (
     <div className="min-h-screen bg-black relative overflow-hidden">
@@ -809,37 +805,33 @@ export default function LandingPage() {
         </div>
       )}
 
-      <section className="relative z-10 min-h-screen flex flex-col items-center justify-start px-4 pt-8 pb-8 md:pt-12 md:pb-12">
-        <div className="mb-4 md:mb-6">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo11-cuksuwu8ou7MvjNmTEi8GVf7KXM1ja.png"
-            alt="Smart Ilha Logo"
-            width={200}
-            height={80}
-            className="h-14 md:h-20 w-auto"
-          />
-        </div>
+      {/* Banner Principal */}
+      <section className="relative z-10 w-full">
+        {/* Banner Mobile */}
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/headmobile-AAJCUDreDuL386nx89LTnaleKrSXDV.webp"
+          alt="Lançamentos 2026 Microwear - Os Novos Series 11 - Smart Ilha"
+          width={800}
+          height={1280}
+          className="block md:hidden w-full h-auto"
+          priority
+        />
+        {/* Banner Desktop */}
+        <Image
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/headdesktop-Ls8ZCbJACPMCnGfgTDXQiemgT5sZfW.webp"
+          alt="Lançamentos 2026 Microwear - Os Novos Series 11 - Smart Ilha"
+          width={1920}
+          height={768}
+          className="hidden md:block w-full h-auto"
+          priority
+        />
+      </section>
 
-        <div className="text-center mb-4 md:mb-6">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-orange-500 mb-1 tracking-tight uppercase drop-shadow-lg">
-            SEU SMARTWATCH
-          </h1>
-          <h2 className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight uppercase">
-            IDEAL ESTÁ A UM CLIQUE!
-          </h2>
-        </div>
-
-        <button
-          onClick={scrollToContent}
-          className="animate-bounce text-orange-500 hover:text-orange-400 transition-colors mb-6 md:mb-8"
-        >
-          <ChevronDown className="w-8 h-8 md:w-12 md:h-12" />
-        </button>
-
+      <section className="relative z-10 flex flex-col items-center justify-start px-4 pt-8 pb-8 md:pt-12 md:pb-12">
         {/* Modelos Disponiveis */}
         <div className="w-full max-w-md md:max-w-5xl mb-6 md:mb-10">
           <div className="text-center mb-6 md:mb-8">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 md:mb-3 tracking-tight">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 md:mb-3 tracking-tight uppercase">
               Conheça Nossos <span className="text-orange-400">Modelos</span>
             </h2>
             <p className="text-gray-300 text-base md:text-lg max-w-2xl mx-auto">
@@ -1583,7 +1575,7 @@ export default function LandingPage() {
                 alt="Selecione seu Smartwatch - Series 11 Ultra, Series 11 Pro e S11 Pro Mini"
                 width={400}
                 height={500}
-                className="w-full max-w-[320px] md:max-w-[380px] h-auto rounded-xl shadow-xl shadow-orange-500/20 border-2 border-orange-500/40"
+                className="w-full max-w-[320px] md:max-w-[380px] h-auto rounded-xl shadow-xl shadow-orange-500/20"
               />
             </div>
 
