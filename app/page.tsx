@@ -831,7 +831,7 @@ export default function LandingPage() {
         {/* Modelos Disponiveis */}
         <div className="w-full max-w-md md:max-w-5xl mb-6 md:mb-10">
           <div className="text-center mb-6 md:mb-8">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 md:mb-3 tracking-tight">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-2 md:mb-3 tracking-tight uppercase">
               Conheça Nossos <span className="text-orange-400">Modelos</span>
             </h2>
             <p className="text-gray-300 text-base md:text-lg max-w-2xl mx-auto">
@@ -1575,7 +1575,7 @@ export default function LandingPage() {
                 alt="Selecione seu Smartwatch - Series 11 Ultra, Series 11 Pro e S11 Pro Mini"
                 width={400}
                 height={500}
-                className="w-full max-w-[320px] md:max-w-[380px] h-auto rounded-xl shadow-xl shadow-orange-500/20 border-2 border-orange-500/40"
+                className="w-full max-w-[320px] md:max-w-[380px] h-auto rounded-xl shadow-xl shadow-orange-500/20"
               />
             </div>
 
