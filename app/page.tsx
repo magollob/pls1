@@ -403,33 +403,46 @@ export default function LandingPage() {
           {/* Popup Content */}
           <div className={`relative bg-gradient-to-b from-gray-900 via-black to-gray-900 border-2 border-orange-500/50 rounded-2xl max-w-sm w-full shadow-2xl shadow-orange-500/20 ${isPopupClosing ? 'animate-popup-close' : 'animate-popup-scale'}`}>
             {/* Header */}
-            <div className="relative bg-gradient-to-b from-orange-900/30 to-transparent p-4 text-center">
+            <div className="relative bg-gradient-to-b from-rose-900/30 to-transparent p-4 text-center">
               <div className="flex justify-center items-center gap-2 mb-1">
-                <span className="text-xl">🎁</span>
-                <h2 className="text-2xl md:text-3xl font-black bg-gradient-to-r from-orange-400 via-yellow-400 to-orange-500 bg-clip-text text-transparent drop-shadow-lg">
+                <span className="text-xl">💕</span>
+                <h2 className="text-2xl md:text-3xl font-black bg-gradient-to-r from-rose-400 via-orange-400 to-rose-500 bg-clip-text text-transparent drop-shadow-lg">
                   PROMOÇÃO
                 </h2>
-                <span className="text-xl">🎁</span>
+                <span className="text-xl">💕</span>
               </div>
               <h3 className="text-lg md:text-xl font-bold text-white mb-2">
-                SHOW DE BRINDES
+                DIA DOS NAMORADOS
               </h3>
-              <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold py-1.5 px-3 rounded-full text-xs md:text-sm inline-block">
+              <div className="bg-gradient-to-r from-rose-500 to-orange-500 text-white font-bold py-1.5 px-3 rounded-full text-xs md:text-sm inline-block">
                 ADQUIRA SEU SMARTWATCH E RECEBA 👇
               </div>
             </div>
 
             {/* Desconto */}
             <div className="px-4 py-2">
-              <div className="border-2 border-yellow-500/50 rounded-xl p-3 bg-gradient-to-b from-yellow-900/20 to-transparent text-center mb-3">
-                <p className="text-orange-400 font-semibold text-xs mb-0.5">POR TEMPO LIMITADO!</p>
-                <p className="text-4xl md:text-5xl font-black bg-gradient-to-b from-yellow-400 via-orange-400 to-orange-600 bg-clip-text text-transparent">
-                  25%
-                </p>
-                <p className="text-xl md:text-2xl font-bold text-white">DE DESCONTO</p>
+              <div className="border-2 border-rose-500/50 rounded-xl p-3 bg-gradient-to-b from-rose-900/20 to-transparent text-center mb-3">
+                <p className="text-rose-400 font-semibold text-xs mb-0.5">DIA DOS NAMORADOS</p>
+                <div className="flex items-center justify-center gap-3">
+                  <div>
+                    <p className="text-xs text-gray-300 mb-0.5">1º SMARTWATCH</p>
+                    <p className="text-3xl md:text-4xl font-black bg-gradient-to-b from-orange-400 via-orange-500 to-orange-600 bg-clip-text text-transparent">
+                      25%
+                    </p>
+                    <p className="text-sm font-bold text-white">OFF</p>
+                  </div>
+                  <span className="text-2xl text-rose-400 font-bold">+</span>
+                  <div>
+                    <p className="text-xs text-gray-300 mb-0.5">2º SMARTWATCH</p>
+                    <p className="text-3xl md:text-4xl font-black bg-gradient-to-b from-rose-400 via-rose-500 to-rose-600 bg-clip-text text-transparent">
+                      20%
+                    </p>
+                    <p className="text-sm font-bold text-white">OFF</p>
+                  </div>
+                </div>
               </div>
 
-              {/* Lista de Brindes */}
+              {/* Lista de Presentes */}
               <div className="space-y-1.5">
                 <div className="bg-gradient-to-r from-orange-500/20 to-transparent border border-orange-500/40 rounded-lg p-2 flex items-center justify-between">
                   <span className="text-white font-semibold text-xs"><span className="text-orange-400">+2</span> PULSEIRAS EXTRAS</span>
@@ -809,8 +822,8 @@ export default function LandingPage() {
       <section className="relative z-10 w-full">
         {/* Banner Mobile */}
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/headmobile-AAJCUDreDuL386nx89LTnaleKrSXDV.webp"
-          alt="Lançamentos 2026 Microwear - Os Novos Series 11 - Smart Ilha"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/headmobiledisdosnamorados-CtKczLbo3ZB0gUY9EUgM57Wt8rB33d.webp"
+          alt="Dia dos Namorados Smart Ilha - Tecnologia que conecta corações - 25% OFF no 1º smartwatch + 20% OFF no 2º"
           width={800}
           height={1280}
           className="block md:hidden w-full h-auto"
@@ -818,8 +831,8 @@ export default function LandingPage() {
         />
         {/* Banner Desktop */}
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/headdesktop-Ls8ZCbJACPMCnGfgTDXQiemgT5sZfW.webp"
-          alt="Lançamentos 2026 Microwear - Os Novos Series 11 - Smart Ilha"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/headdesktopdiadosnamorados-OVjA118zCyhBz5Y00wXgZ8mpdoO6NK.webp"
+          alt="Dia dos Namorados Smart Ilha - Tecnologia que conecta corações - 25% OFF no 1º smartwatch + 20% OFF no 2º"
           width={1920}
           height={768}
           className="hidden md:block w-full h-auto"
@@ -1109,8 +1122,8 @@ export default function LandingPage() {
               {/* Imagem do Kit Completo */}
               <div className="mb-6">
                 <div className="flex justify-center items-center gap-2 mb-4">
-                  <h3 className="text-xl md:text-2xl lg:text-3xl font-black bg-gradient-to-r from-orange-400 via-yellow-400 to-orange-500 bg-clip-text text-transparent drop-shadow-lg uppercase tracking-wide">
-                    Confira todos os brindes que você vai levar hoje!
+                  <h3 className="text-xl md:text-2xl lg:text-3xl font-black bg-gradient-to-r from-rose-400 via-orange-400 to-rose-500 bg-clip-text text-transparent drop-shadow-lg uppercase tracking-wide">
+                    Confira todos os presentes que você vai levar hoje!
                   </h3>
                 </div>
                 <div className="relative w-full max-w-md mx-auto rounded-xl overflow-hidden border-4 border-orange-500/60 shadow-xl shadow-orange-500/30">
@@ -1126,31 +1139,31 @@ export default function LandingPage() {
 
               {/* Brindes */}
               <div className="mt-8">
-                {/* Subtítulo BRINDES EXCLUSIVOS */}
+                {/* Subtítulo PRESENTES EXCLUSIVOS */}
                 <div className="flex items-center justify-center gap-2 mb-6">
-                  <svg className="w-5 h-5 text-orange-400" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M20 7h-1.209A4.92 4.92 0 0019 5.5C19 3.57 17.43 2 15.5 2c-1.622 0-2.705 1.482-3.404 3.085C11.498 3.527 10.4 2 8.5 2 6.57 2 5 3.57 5 5.5c0 .596.079 1.089.209 1.5H4c-1.103 0-2 .897-2 2v2c0 1.103.897 2 2 2v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7c1.103 0 2-.897 2-2V9c0-1.103-.897-2-2-2zm-4.5-3c.827 0 1.5.673 1.5 1.5C17 7.5 13 8 13 8s-.5-4 2.5-4zm-7 0C10.5 4 11 8 11 8s-4-.5-4-2.5C7 4.673 7.673 4 8.5 4zM4 9h7v2H4V9zm2 11v-7h5v7H6zm12 0h-5v-7h5v7zm2-9h-7V9h7v2z"/>
+                  <svg className="w-5 h-5 text-rose-400" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                   </svg>
-                  <span className="text-orange-400 font-bold text-sm uppercase tracking-wider">Brindes Exclusivos</span>
-                  <svg className="w-5 h-5 text-orange-400" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M20 7h-1.209A4.92 4.92 0 0019 5.5C19 3.57 17.43 2 15.5 2c-1.622 0-2.705 1.482-3.404 3.085C11.498 3.527 10.4 2 8.5 2 6.57 2 5 3.57 5 5.5c0 .596.079 1.089.209 1.5H4c-1.103 0-2 .897-2 2v2c0 1.103.897 2 2 2v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7c1.103 0 2-.897 2-2V9c0-1.103-.897-2-2-2zm-4.5-3c.827 0 1.5.673 1.5 1.5C17 7.5 13 8 13 8s-.5-4 2.5-4zm-7 0C10.5 4 11 8 11 8s-4-.5-4-2.5C7 4.673 7.673 4 8.5 4zM4 9h7v2H4V9zm2 11v-7h5v7H6zm12 0h-5v-7h5v7zm2-9h-7V9h7v2z"/>
+                  <span className="text-rose-400 font-bold text-sm uppercase tracking-wider">Presentes Exclusivos</span>
+                  <svg className="w-5 h-5 text-rose-400" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                   </svg>
                 </div>
 
                 {/* Grid de brindes */}
                 <BrindesCarousel />
 
-                {/* Destaque R$105,00 em brinde GRÁTIS HOJE */}
+                {/* Destaque R$105,00 em presentes GRÁTIS HOJE */}
                 <div className="mt-6 flex flex-col items-center">
-                  <div className="bg-gradient-to-r from-green-500/20 via-green-400/30 to-green-500/20 border border-green-500/50 rounded-xl px-6 py-4 text-center">
+                  <div className="bg-gradient-to-r from-rose-500/20 via-rose-400/30 to-rose-500/20 border border-rose-500/50 rounded-xl px-6 py-4 text-center">
                     <div className="flex items-center justify-center gap-2 mb-2">
-                      <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M20 7h-1.209A4.92 4.92 0 0019 5.5C19 3.57 17.43 2 15.5 2c-1.622 0-2.705 1.482-3.404 3.085C11.498 3.527 10.4 2 8.5 2 6.57 2 5 3.57 5 5.5c0 .596.079 1.089.209 1.5H4c-1.103 0-2 .897-2 2v2c0 1.103.897 2 2 2v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7c1.103 0 2-.897 2-2V9c0-1.103-.897-2-2-2zm-4.5-3c.827 0 1.5.673 1.5 1.5C17 7.5 13 8 13 8s-.5-4 2.5-4zm-7 0C10.5 4 11 8 11 8s-4-.5-4-2.5C7 4.673 7.673 4 8.5 4zM4 9h7v2H4V9zm2 11v-7h5v7H6zm12 0h-5v-7h5v7zm2-9h-7V9h7v2z"/>
+                      <svg className="w-5 h-5 text-rose-400" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                       </svg>
-                      <span className="text-green-400 font-black text-lg line-through">R$105,00</span>
-                      <span className="text-white text-sm font-medium">em brindes</span>
+                      <span className="text-rose-400 font-black text-lg line-through">R$105,00</span>
+                      <span className="text-white text-sm font-medium">em presentes</span>
                     </div>
-                    <span className="text-green-300 font-bold text-2xl uppercase tracking-wide animate-pulse">GRÁTIS</span>
+                    <span className="text-rose-300 font-bold text-2xl uppercase tracking-wide animate-pulse">GRÁTIS</span>
                   </div>
                 </div>
               </div>
