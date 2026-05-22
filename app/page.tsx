@@ -1122,8 +1122,9 @@ export default function LandingPage() {
               {/* Imagem do Kit Completo */}
               <div className="mb-6">
                 <div className="flex justify-center items-center gap-2 mb-4">
-                  <h3 className="text-xl md:text-2xl lg:text-3xl font-black bg-gradient-to-r from-rose-400 via-orange-400 to-rose-500 bg-clip-text text-transparent drop-shadow-lg uppercase tracking-wide">
-                    Confira todos os presentes que você vai levar hoje!
+                  <h3 className="text-xl md:text-2xl lg:text-3xl font-black text-white drop-shadow-lg uppercase tracking-wide">
+                    Confira todos os brindes do{" "}
+                    <span className="text-orange-400">Dia dos Namorados</span>
                   </h3>
                 </div>
                 <div className="relative w-full max-w-md mx-auto rounded-xl overflow-hidden border-4 border-orange-500/60 shadow-xl shadow-orange-500/30">
